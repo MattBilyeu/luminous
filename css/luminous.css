@@ -1,0 +1,23 @@
+#second-headshot {
+    background-image: url('../images/luminous/hero-image.jpg');
+    height: 600px;
+    width: 600px;
+}
+
+.sc_title {
+    margin-top: 2rem;
+}
+
+.post_title {
+    min-height: 49px;
+}
+
+.sc_custom_1459501367721 {
+    background-image: url('../images/luminous/testimonial-background.png') !important;
+}
+
+#sc_testimonials_179 .testimonial-box {
+    background-color: darkblue;
+    padding: 1rem;
+    box-shadow: 4px 4px 4px black;
+}
