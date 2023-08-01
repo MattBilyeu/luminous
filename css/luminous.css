@@ -96,7 +96,7 @@
 
     }
     100% {
-        background-color: var(--primary-color);
+        background-color: var(--quaternary-color);
         color: white;
         font-size: 1.3rem;
     }
