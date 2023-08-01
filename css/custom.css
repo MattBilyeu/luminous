@@ -982,7 +982,7 @@ body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button {
 	color:#8ed4cc;
 }
 .typographic .cu_pds_2 span  {
-	color:#757575!important;
+	color: var(--primary-color) !important;
 	font-size:3em;
 }
 

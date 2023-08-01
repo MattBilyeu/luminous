@@ -1,0 +1,20 @@
+/*------------------------------------------------------------------
+# [Color codes]
+
+# Text: #757575
+# Dark text: #323232
+# Link text: #f9a392
+# Hover text: #8ed4cc
+
+# Text: --primary-color
+# Dark text: --secondary-color
+# Link text: --tertiary-color
+# Hover text: --quaternary-color
+# */
+
+:root {
+    --primary-color: #6B9AC4;
+    --secondary-color: #F4B942;
+    --tertiary-color: #6B9AC4;
+    --quaternary-color: #97D8C4;
+}

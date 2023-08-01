@@ -2816,7 +2816,7 @@ form.search_form .search_button:hover {
     transition: all 0.3s ease 0s
 }
 .top_panel_wrap.scheme_dark+.header_mobile {
-    background-color: #323232;
+    background-color: var(--secondary-color);
 }
 .top_panel_wrap.scheme_dark+.header_mobile .menu_button,
 .top_panel_wrap.scheme_dark+.header_mobile .menu_main_cart .top_panel_cart_button .contact_icon {

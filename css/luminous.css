@@ -17,7 +17,7 @@
 }
 
 #sc_testimonials_179 .testimonial-box {
-    background-color: darkblue;
+    background-color: var(--quaternary-color);
     padding: 1rem;
     box-shadow: 4px 4px 4px black;
 }
@@ -47,31 +47,77 @@
 }
 
 #value-prop .content {
-    color: black;
+    font-weight: bold;
     display: flex;
     flex-direction: column;
     gap: 1rem;
     padding: 1rem;
     justify-content: center;
     text-align: center;
+    font-size: 1.2rem;
 }
 
 .prop-one {
-    border-right: solid thin black;
-    border-bottom: solid thin black;
+    border-right: solid thin var(--secondary-color);
+    border-bottom: solid thin var(--secondary-color);
 }
 
 .prop-two {
-    border-bottom: solid thin black;
-    border-left: solid thin black;
+    border-bottom: solid thin var(--secondary-color);
+    border-left: solid thin var(--secondary-color);
 }
 
 .prop-three {
-    border-top: solid thin black;
-    border-right: solid thin black;
+    border-top: solid thin var(--secondary-color);
+    border-right: solid thin var(--secondary-color);
 }
 
 .prop-four {
-    border-left: solid thin black;
-    border-top: solid thin black;
+    border-left: solid thin var(--secondary-color);
+    border-top: solid thin var(--secondary-color);
+}
+
+.prop:hover {
+    color: var(--primary-color);
+    animation: 1s propHover ease-in-out forwards;
+}
+
+.sc_services_style_services-1.sc_services_type_images .sc_services_item_content {
+    padding: 2rem;
+    margin-top: -2em;
+}
+
+.mobileShow {
+    display: none;
+}
+
+@keyframes propHover {
+    0% {
+
+    }
+    100% {
+        background-color: var(--primary-color);
+        color: white;
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .mobileHide {
+        display: none !important;
+    }
+
+    .mobileShow {
+        display: block;
+    }
+
+    #value-prop .photo {
+        display: none;
+    }
+
+    #value-prop .grid {
+        width: 100%;
+        padding: 1rem;
+        background: linear-gradient(to top right, white, var(--quaternary-color));
+    }
 }
