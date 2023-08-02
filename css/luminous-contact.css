@@ -1,0 +1,22 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.enlarge {
+    font-size: 1.2rem;
+    max-width: 500px;
+    margin: 0 auto 2rem auto;
+}
+
+.scheme_original .sc_button.sc_button_style_filled {
+    background-color: var(--quaternary-color);
+    border: var(--quaternary-color);
+}
+
+.schedule:hover {
+    filter: brightness(85%);
+}

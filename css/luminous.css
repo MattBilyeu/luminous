@@ -1,3 +1,7 @@
+.menu-item:hover {
+    box-shadow: 0px 2px 0px var(--primary-color) !important;
+}
+
 #second-headshot {
     background-image: url('../images/luminous/hero-image.jpg');
     height: 600px;
