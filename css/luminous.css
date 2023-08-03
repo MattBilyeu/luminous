@@ -3,7 +3,7 @@
 }
 
 #second-headshot {
-    background-image: url('../images/luminous/hero-image.jpg');
+    background-image: url('../images/luminous/second-headshot.png');
     height: 600px;
     width: 600px;
 }
@@ -93,6 +93,15 @@
 
 .mobileShow {
     display: none;
+}
+
+footer  {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 1rem;
+    color: var(--quaternary-color);
+    align-items: flex-end;
 }
 
 @keyframes propHover {

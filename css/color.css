@@ -15,6 +15,7 @@
 :root {
     --primary-color: #6B9AC4;
     --secondary-color: #F4B942;
-    --tertiary-color: #6B9AC4;
+    /* --tertiary-color: #6B9AC4; */
+    --tertiary-color: #f4b0ba;
     --quaternary-color: #97D8C4;
 }
