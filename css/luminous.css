@@ -1,3 +1,7 @@
+#header-image {
+    background-image: url('../images/luminous/secondary-headers.png');
+}
+
 .menu-item:hover {
     box-shadow: 0px 2px 0px var(--primary-color) !important;
 }
@@ -62,23 +66,23 @@
 }
 
 .prop-one {
-    border-right: solid thin var(--secondary-color);
-    border-bottom: solid thin var(--secondary-color);
+    border-right: solid thin var(--tertiary-color);
+    border-bottom: solid thin var(--tertiary-color);
 }
 
 .prop-two {
-    border-bottom: solid thin var(--secondary-color);
-    border-left: solid thin var(--secondary-color);
+    border-bottom: solid thin var(--tertiary-color);
+    border-left: solid thin var(--tertiary-color);
 }
 
 .prop-three {
-    border-top: solid thin var(--secondary-color);
-    border-right: solid thin var(--secondary-color);
+    border-top: solid thin var(--tertiary-color);
+    border-right: solid thin var(--tertiary-color);
 }
 
 .prop-four {
-    border-left: solid thin var(--secondary-color);
-    border-top: solid thin var(--secondary-color);
+    border-left: solid thin var(--tertiary-color);
+    border-top: solid thin var(--tertiary-color);
 }
 
 .prop:hover {
