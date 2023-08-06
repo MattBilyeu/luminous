@@ -1,3 +1,7 @@
+.content_wrap {
+    padding-bottom: 2rem;
+}
+
 #header-image {
     background-image: url('../images/luminous/secondary-headers.png');
 }
